@@ -24,8 +24,8 @@ Portfolio site: [willhetzinger.github.io](https://willhetzinger.github.io)
 ### Earlier work
 
 - [options-payoff-greeks](https://github.com/wchetz13/options-payoff-greeks): Black–Scholes Greeks and a safeguarded Newton implied volatility solver
-- [monte-carlo-options-pricing](https://github.com/wchetz13/monte-carlo-options-pricing): Monte Carlo option pricing with variance reduction
-- [margin-returns-forecasting](https://github.com/wchetz13/margin-returns-forecasting): return forecasting from margin data
+- [monte-carlo-options-pricing](https://github.com/wchetz13/monte-carlo-options-pricing): Monte Carlo pricing under GBM with antithetic and control variates, validated against Black–Scholes
+- [margin-returns-forecasting](https://github.com/wchetz13/margin-returns-forecasting): return, trend and volatility forecasting with ARIMA, Prophet and GARCH
 
 ## Toolkit
 
