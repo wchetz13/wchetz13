@@ -17,6 +17,7 @@ Portfolio site: [willhetzinger.github.io](https://willhetzinger.github.io)
 | [American options](https://github.com/wchetz13/quant-lab/tree/main/american-options) | Longstaff–Schwartz regression Monte Carlo as an out-of-sample lower bound; a Bermudan tree reproduces the original paper's Table 1 |
 | [Yield curves](https://github.com/wchetz13/quant-lab/tree/main/yield-curve) | Bootstrapping discount curves from deposits and par swaps; Nelson–Siegel–Svensson fitting by variable projection |
 | [VaR and Expected Shortfall](https://github.com/wchetz13/quant-lab/tree/main/var-backtest) | Historical, Gaussian, EWMA and filtered historical simulation forecasters, scored with Kupiec, Christoffersen, Basel traffic-light and Acerbi–Székely backtests |
+| [Purged cross-validation (ML)](https://github.com/wchetz13/quant-lab/tree/main/purged-cv) | Purged k-fold with embargo for financial machine learning; shuffled k-fold finds AUC 0.70 in pure noise, purged CV correctly reports chance |
 
 ### Engineering
 
@@ -33,4 +34,4 @@ Portfolio site: [willhetzinger.github.io](https://willhetzinger.github.io)
 
 ## Toolkit
 
-**Python:** NumPy, SciPy, pandas, pytest, Hypothesis, FastAPI · **TypeScript:** Node, Vitest, zod · **Practice:** strict typing, property-based tests, CI on every PR, reproducible results
+**Python:** NumPy, SciPy, pandas, scikit-learn, pytest, Hypothesis, FastAPI · **TypeScript:** Node, Vitest, zod · **Practice:** strict typing, property-based tests, CI on every PR, reproducible results
